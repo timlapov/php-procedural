@@ -110,6 +110,83 @@ $title = "Exos - Énoncé";
     <?php
     var_dump($tableau);
     ?>
+    <h3 class="text-center">Exo 4 – Les boucles for</h3>
+    <ul>
+        <li>
+            <p><code> $message = "J'adore le croissant !"; <br>
+                    for ($i = 0; $i < strlen($message); $i++) { <br>
+                        if ($i % 2 == 0) { <br>
+                        echo ('<span style="color: red;">' . $message[$i] . '</span>'); <br>
+                        } else { <br>
+                        echo ($message[$i]); <br>
+                        } <br>
+                        }</code></p>
+            <?php
+            $message = "J'adore le croissant !";
+            for ($i = 0; $i < strlen($message); $i++) {
+                if ($i % 2 == 0) {
+                    echo ('<span style="color: red;">' . $message[$i] . '</span>');
+                } else {
+                    echo ($message[$i]);
+                }
+            }
+            ?>
+        </li>
+        <li>
+            <code> $message = "Bonjour"; <br>
+                $messageInverse = ''; <br>
+                for ($i = strlen($message) - 1; $i >= 0; $i--) { <br>
+                $messageInverse[strlen($message) - 1 - $i] = $message[$i]; <br>
+                } <br>
+                var_dump($messageInverse); <br></code>
+            <?php
+            $message = "Bonjour";
+            $messageInverse = '';
+            for ($i = strlen($message) - 1; $i >= 0; $i--) {
+                $messageInverse[strlen($message) - 1 - $i] = $message[$i];
+            }
+            var_dump($messageInverse);
+            ?>
+        </li>
+        <li>
+            <p>Créer un boucle qui tourne 10 fois et qui affiche a chaque tour: "Tour de boucle n° X"</p>
+            <p>
+                <code>
+                    for ($i = 1; $i < 10; $i=$i + 1) { <br>
+                        echo ("Tour de boucle n° " . $i . ' '); <br>
+                        } <br>
+                </code>
+                <?php for ($i = 1; $i < 10; $i = $i + 1) {
+                    echo ("Tour de boucle n° " . $i . '<br>');
+                }
+                ?>
+            </p>
+        </li>
+        <li>
+            <p>Créer un boucle qui affiche la table de multiplication de 5</p>
+            <code> for ($i = 1; $i < 10; $i=$i + 1) { <br>
+                    echo ($i . '* 5 = ' . $i * 5 . ' '); <br>
+                    }</code>
+            <p>
+                <?php for ($i = 1; $i < 10; $i = $i + 1) {
+                    echo ($i . '* 5 = ' . $i * 5 . '<br>');
+                }
+                ?>
+            </p>
+        </li>
+        <li>
+            <p>Créer un boucle qui compte de 100 a 50, deux par deux</p>
+            <p>
+                <code>for ($i = 100; $i >= 50; $i = $i - 2) { <br>
+                    echo ($i . ' '); <br>
+                    } <br></code>
+                <?php for ($i = 100; $i >= 50; $i = $i - 2) {
+                    echo ($i . ' ');
+                }
+                ?>
+            </p>
+        </li>
+    </ul>
 </body>
 
 </html>
