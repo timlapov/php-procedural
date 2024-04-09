@@ -1,6 +1,7 @@
 <?php
 $title = "Exos - Énoncé";
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
