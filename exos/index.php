@@ -120,17 +120,18 @@ $title = "Exos - Énoncé";
                         } else { <br>
                         echo ($message[$i]); <br>
                         } <br>
-                        }</code></p>
-            <?php
-            $message = "J'adore le croissant !";
-            for ($i = 0; $i < strlen($message); $i++) {
-                if ($i % 2 == 0) {
-                    echo ('<span style="color: red;">' . $message[$i] . '</span>');
-                } else {
-                    echo ($message[$i]);
+                        }</code>
+                <?php
+                $message = "J'adore le croissant !";
+                for ($i = 0; $i < strlen($message); $i++) {
+                    if ($i % 2 == 0) {
+                        echo ('<span style="color: red;">' . $message[$i] . '</span>');
+                    } else {
+                        echo ($message[$i]);
+                    }
                 }
-            }
-            ?>
+                ?>
+            </p>
         </li>
         <li>
             <code> $message = "Bonjour"; <br>
