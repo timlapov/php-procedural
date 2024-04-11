@@ -35,6 +35,18 @@
         }
         ?>
     </div>
+    <div>
+        <?php
+        $voiture = [
+            "model" => "Citroen",
+            "portes" => 5,
+            "isAuto" => true,
+        ];
+        foreach ($voiture as $key => $value) {
+            echo $key . " : " . $value . "<br>";
+        };
+        ?>
+    </div>
 </body>
 
 </html>
