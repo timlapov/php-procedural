@@ -148,6 +148,10 @@ $title = "Exos - Énoncé";
             }
             var_dump($messageInverse);
             ?>
+            <code>var_dump(strrev($message)); <br></code>
+            <?php
+            var_dump(strrev($message));
+            ?>
         </li>
         <li>
             <p>Créer un boucle qui tourne 10 fois et qui affiche a chaque tour: "Tour de boucle n° X"</p>
