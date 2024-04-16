@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <?php include("block/navbar.php"); ?>
     <h1>Bases</h1>
 
     <?php
