@@ -9,6 +9,7 @@
 </head>
 
 <body class="p-4">
+    <?php include("../block/navbar.php"); ?>
     <h1 class="text-center text-danger">Exercices – functions</h1>
     <h2>Exo 1</h2>
     <p>

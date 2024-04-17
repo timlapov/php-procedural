@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <?php include("../block/navbar.php"); ?>
     <h1 class="text-center">
         Exercice – Images
     </h1>

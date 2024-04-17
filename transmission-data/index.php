@@ -13,6 +13,16 @@
     include("block/navbar.php");
     ?>
     <h1 class="text-center p-4">INDEX.PHP</h1>
+    <h2 class="text-center">To get</h2>
+    <form method="GET" action="get.php">
+        <input name="data" type="text">
+        <input type="submit">
+    </form>
+    <h2 class="text-center">To post</h2>
+    <form method="POST" action="post.php">
+        <input name="data" type="text">
+        <input type="submit">
+    </form>
 </body>
 
 </html>

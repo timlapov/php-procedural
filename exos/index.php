@@ -16,6 +16,7 @@ $title = "Exos - Énoncé";
 </head>
 
 <body>
+    <?php include("../block/navbar.php"); ?>
     <h1 class="text-center m-3"><?php echo ($title) ?></h1>
     <h2 class="text-center">Exo 1 - Déclarer variables</h2>
     <ul>
