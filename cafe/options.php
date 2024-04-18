@@ -17,6 +17,11 @@
     } else {
         $boisson = null;
     };
+    if (isset($_GET['img'])) {
+        $img = $_GET['img'];
+    } else {
+        $img = null;
+    };
     ?>
 
     <h1 class="text-center text-bg-secondary">Moi c'est une machine a café</h1>
@@ -26,7 +31,16 @@
         var_dump($_GET);
         ?>
     </p>
-
+    <div class="container">
+        <div class="row">
+            <div class="col-4 bg-success">
+                <img src=<?php echo ($img); ?> class="img-fluid" alt="...">
+            </div>
+            <div class="col-8 bg-secondary">
+                <p>dbjaskdbkja`bdjka</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

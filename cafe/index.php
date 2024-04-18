@@ -41,7 +41,7 @@
                 <div class='card-body'>
                     <h5 class='card-title'>{$boisson['name']}</h5>
                     <p class='card-text'>{$boisson['price']}</p>
-                    <a href='options.php?boisson={$boisson['name']}' class='btn btn-primary'>Acheter</a>
+                    <a href='options.php?boisson={$boisson['name']}\&img={$boisson['img']}' class='btn btn-primary'>Acheter</a>
                 </div>
             </div>
                 ");
